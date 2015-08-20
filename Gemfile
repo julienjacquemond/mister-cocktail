@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem "better_errors"
+  gem "binding_of_caller"
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -44,3 +46,14 @@ group :development, :test do
 end
 
 gem 'rspec-rails', group: [ :test ]
+
+
+# Front End
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'font-awesome-sass', '~> 4.2.0'
+gem 'simple_form'
+
+# Heroku
+ruby '2.2.3'
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
