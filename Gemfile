@@ -60,3 +60,7 @@ gem 'puma',           group: :production
 
 #S3
 gem 'figaro'
+
+# Paperclip
+gem 'aws-sdk', '< 2.0'
+gem 'paperclip'
