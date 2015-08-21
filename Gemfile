@@ -57,3 +57,6 @@ gem 'simple_form'
 ruby '2.2.3'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
+
+#S3
+gem 'figaro'
